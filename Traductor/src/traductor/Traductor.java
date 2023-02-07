@@ -16,7 +16,7 @@ public class Traductor {
         int menu;
         Scanner sc = new Scanner(System.in);
         boolean admin;
-        //bienvenida, incluir metodo
+        //bienvenida, incluir metodo 
         
         do {
             
@@ -30,7 +30,7 @@ public class Traductor {
                         menu = sc.nextInt();
                         
                         switch (menu) {
-                            case 1://añadir palabras
+                            case 1://aï¿½adir palabras
                                 
                                 break;
                             
@@ -39,7 +39,7 @@ public class Traductor {
                                 salir = false;
                             
                             default:
-                                System.out.println("Introduce una opcion válida!!");
+                                System.out.println("Introduce una opcion vï¿½lida!!");
                         }
                     } while (salir);
                     salir = true;
@@ -62,17 +62,17 @@ public class Traductor {
                                         case 1://mostrar tabla completa
                                             
                                             break;
-                                        case 2://mostrar lista español
+                                        case 2://mostrar lista espaï¿½ol
                                             
                                             break;
                                         case 3://mostrar lista gallego
 
                                             break;
-                                        case 4://mostrar lista catalán
+                                        case 4://mostrar lista catalï¿½n
                                             break;
                                         case 5: //salir
                                         default:
-                                            System.out.println("Introduce una opcion válida!!");
+                                            System.out.println("Introduce una opcion vï¿½lida!!");
                                     }
                                 } while (salir);
                                 salir=true;
@@ -83,7 +83,7 @@ public class Traductor {
                                 
                                 break;
                             default:
-                                System.out.println("Introduce una opcion válida!!");
+                                System.out.println("Introduce una opcion vï¿½lida!!");
                         }
                     } while (salir);
                     
@@ -92,7 +92,7 @@ public class Traductor {
                     salir = false;
                     break;
                 default:
-                    System.out.println("Introduce una opcion válida!!");
+                    System.out.println("Introduce una opcion vï¿½lida!!");
             }
             
         } while (salir);
